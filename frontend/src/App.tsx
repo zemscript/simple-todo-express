@@ -1,9 +1,12 @@
 import styled from "styled-components";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
     <MainSection>
-      <Content></Content>
+      <Content>
+        <TodoList></TodoList>
+      </Content>
     </MainSection>
   );
 }
